@@ -13,7 +13,7 @@ function choice(choices) {
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-  
+
 
 app.get('/', (req, res) => {
     const images = readdir('./images/images', (_err, files) => {
