@@ -1,4 +1,4 @@
-From alpine
+FROM alpine
 WORKDIR /usr/src/app
 RUN apk add nodejs
 COPY package.json ./
