@@ -10,8 +10,8 @@
   "author": "dever",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.2",
     "canvas": "^2.8.0",
+    "express": "^4.17.2",
     "gif-encoder-2": "^1.0.5",
     "sha1": "^1.1.1"
   }
